@@ -36,7 +36,6 @@
                 <input id="image" type="file" accept="image/*" name="userImage">
 
             </fieldset>
-
             <fieldset>
                 <legend>Perfil</legend>
 
@@ -98,7 +97,6 @@
                 <label for="city">Cidade</label>
                 <input id="city" type="text" name="userCity">
             </fieldset>
-
             <fieldset>
                 <legend>Hábitos</legend>
 
@@ -126,6 +124,26 @@
                 <br>
                 <label for="favoriteColor">Cor preferida</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
+            </fieldset>
+            <fieldset>
+                <legend>Opnião</legend>
+            <p>Qual a sua satisfação com o serviço?</p>
+                <input id="great" name="userSatisfaction" type="radio" value="great">
+                <label for="great">Ótima</label>
+                <br>
+                <input id="good" name="userSatisfaction" type="radio" value="good">
+                <label for="good">Boa</label>
+                <br>
+                <input id="regular" name="userSatisfaction" type="radio" value="regular">
+                <label for="regular">Regular</label>
+                <br>
+                <input id="bad" name="userSatisfaction" type="radio" value="bad">
+                <label for="bad">Ruim</label>
+                <br><br>
+                <label for="comment">Faça um comentário:</label>
+                <br>
+                <textarea name="userComment" id="comment" placeholder="Digite aqui sua opnião..."></textarea>
+
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
