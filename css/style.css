@@ -67,7 +67,8 @@ input, select, textarea{
     border-radius: 8px;
 }
 
-#phoneNumber{
+#phoneNumber, 
+input#image{
     margin-bottom: 0;
 }
 
